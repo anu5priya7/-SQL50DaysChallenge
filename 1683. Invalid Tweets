@@ -1,0 +1,10 @@
+# Write your MySQL query statement below
+
+SELECT  tweet_id
+FROM  Tweets
+WHERE CHAR_LENGTH(content) > 15
+
+
+# LENGTH() - string ki length bytes me nikalta hai
+# CHAR_LENGTH() - string ki length char me nikalta hai
+
